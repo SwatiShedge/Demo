@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+         <hibernate-mapping>
+         <class name="Hibernateorder" table="order_details">
+        <id name="order_id">
+        </id>
+        <property name="cust_name">
+        </property>
+        <property name="ph_no">
+        </property>
+        <property name="addr">
+        </property>
+        <property name="order_date">
+        </property>
+        <property name="qty">
+        </property>
+         </class>
+    
+         
+         </hibernate-mapping>
